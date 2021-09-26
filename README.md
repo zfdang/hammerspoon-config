@@ -31,7 +31,7 @@ HyperKey: {"cmd", "alt", "ctrl", "shift"}
 - HyperKey + right: resize current window to the right half of the screen
 - HyperKey + up: resize current window to the top half of the screen
 - HyperKey + down: resize current window to the bottom half of the screen
-- HyperKey + x: launch application by x (see definitions in [key-bindings.lua](key-bindings.lua)
+- HyperKey + x: launch application by x (see definitions in [key-bindings.lua](key-bindings.lua) )
 
 - "CMD" + up: volume up
 - "CMD" + down: volume down
