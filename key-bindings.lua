@@ -56,7 +56,7 @@ local key2App = {
     s = 'Slack',
     t = 'Thunder',
     w = 'Microsoft Word',
-    x = 'Thunder-AA',
+    x = 'App-Does-Not-Exist',
 }
 
 for key, app in pairs(key2App) do
