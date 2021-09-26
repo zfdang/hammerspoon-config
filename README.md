@@ -33,6 +33,6 @@ HyperKey: {"cmd", "alt", "ctrl", "shift"}
 - HyperKey + down: resize current window to the bottom half of the screen
 - HyperKey + x: launch application by x (see key2App in [key-bindings.lua](key-bindings.lua), you can customize it in your own way)
 
-- "CMD" + up: volume up
-- "CMD" + down: volume down
+- {"CMD","Ctrl"} + up: volume up
+- {"CMD","Ctrl"} + down: volume down
 
