@@ -40,23 +40,31 @@ local app = require('app-management')
 local amHyperKey = {'ctrl', 'alt', 'cmd', 'shift'}
 local key2App = {
     a = 'Sublime Text',
+    -- b = 'Revered for battery status',
     c = 'Google Chrome',
     d = 'Dictionary',
     e = 'Microsoft Excel',
     f = 'Path Finder',
-    g = 'Mail',
+    -- g = 'App-Does-Not-Exist',
+    -- h = 'App-Does-Not-Exist',
     i = 'iTerm',
     j = 'Google Chrome',
     k = 'Foxmail',
+    -- l = 'Reserved for Lock screen',
     m = 'MacDown',
     n = 'Microsoft OneNote',
     o = 'Microsoft Outlook',
     p = 'Microsoft PowerPoint',
+    -- q = 'App-Does-Not-Exist',
     r = 'Foxit PDF Reader',
     s = 'Slack',
     t = 'Thunder',
+    -- u = 'App-Does-Not-Exist',
+    -- v = 'App-Does-Not-Exist',
     w = 'Microsoft Word',
-    x = 'App-Does-Not-Exist',
+    -- x = 'App-Does-Not-Exist',
+    -- y = 'App-Does-Not-Exist',
+    z = 'App-Does-Not-Exist',
 }
 
 for key, app in pairs(key2App) do
