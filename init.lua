@@ -1,14 +1,11 @@
--- -----------------------------------------------------------------------
---                         ** Something Global **                       --
--- -----------------------------------------------------------------------
--- Uncomment this following line if you don't wish to see animations
--- hs.window.animationDuration = 0
+-- https://github.com/zfdang/hammerspoon-config
 
--- -----------------------------------------------------------------------
---                            ** Requires **                            --
--- -----------------------------------------------------------------------
 require "volume"
 require "window-management"
+require "app-management"
 
 -- all keys binding are defined here
 require "key-bindings"
+
+-- show config load alert
+hs.alert.show("HammerSpoon config reloaded!", 1)
