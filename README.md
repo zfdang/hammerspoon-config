@@ -12,7 +12,7 @@ NOTE: You might have to grant "accessibility" permission to HammerSpoon manually
 ## how to use this config
 
 ```
-rm -r ~/.hammerspoon
+rm -rf ~/.hammerspoon
 git clone https://github.com/zfdang/hammerspoon-config.git ~/.hammerspoon
 ```
 
