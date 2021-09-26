@@ -6,7 +6,7 @@ personal config for hammerspoon
 
 ```
 rm -r ~/.hammerspoon
-git clone https://github.com/wangshub/hammerspoon-config.git ~/.hammerspoon
+git clone https://github.com/zfdang/hammerspoon-config.git ~/.hammerspoon
 ```
 
 then reload hammerspoon config
