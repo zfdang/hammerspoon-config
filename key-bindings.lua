@@ -19,8 +19,8 @@ end)
 -- bindings for volume management
 local volume = require('volume-management')
 local volumeHyperKey = {'cmd', 'ctrl'}
-hk.bind(volumeHyperKey, 'Down', changeVolume(-10))
-hk.bind(volumeHyperKey, 'Up', changeVolume(10))
+hk.bind(volumeHyperKey, 'Down', changeVolume(-5))
+hk.bind(volumeHyperKey, 'Up', changeVolume(5))
 
 
 --- Bind hotkey for window management.
