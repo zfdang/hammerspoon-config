@@ -1,6 +1,7 @@
 -- https://github.com/zfdang/hammerspoon-config
 
 require "volume-management"
+require "brightness-management"
 require "window-management"
 require "app-management"
 

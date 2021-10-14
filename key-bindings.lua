@@ -19,9 +19,14 @@ end)
 -- bindings for volume management
 local volume = require('volume-management')
 local volumeHyperKey = {'cmd', 'ctrl'}
-hk.bind(volumeHyperKey, 'Down', changeVolume(-5))
-hk.bind(volumeHyperKey, 'Up', changeVolume(5))
+hk.bind(volumeHyperKey, 'Down', changeVolume(-10))
+hk.bind(volumeHyperKey, 'Up', changeVolume(10))
 
+-- bindings for brightness management
+local volume = require('brightness-management')
+local volumeHyperKey = {'ctrl', 'alt'}
+hk.bind(volumeHyperKey, 'Down', changeBrightness(-10))
+hk.bind(volumeHyperKey, 'Up', changeBrightness(10))
 
 --- Bind hotkey for window management.
 local wm = require('window-management')
