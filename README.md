@@ -13,7 +13,7 @@ NOTE: You might have to grant "accessibility" permission to HammerSpoon manually
 
 ```
 rm -rf ~/.hammerspoon
-git clone -–depth 1 https://github.com/zfdang/hammerspoon-config.git ~/.hammerspoon
+git clone https://github.com/zfdang/hammerspoon-config.git ~/.hammerspoon --depth 1
 ```
 
 then reload hammerspoon config
