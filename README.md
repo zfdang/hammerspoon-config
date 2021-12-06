@@ -35,4 +35,7 @@ HyperKey: {"cmd", "alt", "ctrl", "shift"}
 
 - {"CMD","Ctrl"} + up: volume up
 - {"CMD","Ctrl"} + down: volume down
+- 
+- {"option","Ctrl"} + up: screen brightness up
+- {"option","Ctrl"} + down: screen brightness down
 
