@@ -67,7 +67,7 @@ local key2App = {
     -- u = 'App-Does-Not-Exist',
     -- v = 'App-Does-Not-Exist',
     w = 'Microsoft Word',
-    -- x = 'App-Does-Not-Exist',
+    x = 'Xcode',
     -- y = 'App-Does-Not-Exist',
     z = 'App-Does-Not-Exist',
 }
