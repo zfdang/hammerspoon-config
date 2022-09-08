@@ -5,6 +5,11 @@ require "brightness-management"
 require "window-management"
 require "app-management"
 
+-- turn off bluetooth when system sleeps
+-- blueutil is needed. $ brew install blueutil
+-- https://github.com/toy/blueutil
+require "bluetooth-sleep"
+
 -- all keys binding are defined here
 require "key-bindings"
 
