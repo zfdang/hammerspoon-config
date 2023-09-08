@@ -63,11 +63,11 @@ local key2App = {
     -- q = 'App-Does-Not-Exist',
     r = 'Foxit PDF Reader',
     s = 'Slack',
-    t = 'Thunder',
+    t = 'Motrix',
     -- u = 'App-Does-Not-Exist',
     -- v = 'App-Does-Not-Exist',
     w = 'Microsoft Word',
-    x = 'Xcode',
+    x = 'Final Cut Pro',
     -- y = 'App-Does-Not-Exist',
     z = 'App-Does-Not-Exist',
 }
