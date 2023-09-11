@@ -15,6 +15,7 @@ NOTE: You might have to grant "accessibility" permission to HammerSpoon manually
 brew install blueutil
 rm -rf ~/.hammerspoon
 git clone https://github.com/zfdang/hammerspoon-config.git ~/.hammerspoon --depth 1
+git clone git@github.com:zfdang/hammerspoon-config.git ~/.hammerspoon --depth 1
 ```
 
 then reload hammerspoon config
