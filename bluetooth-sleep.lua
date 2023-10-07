@@ -8,7 +8,9 @@ end
 
 function bluetooth(power)
     print("Setting bluetooth to " .. power)
-    local t = hs.task.new("/usr/local/bin/blueutil", checkBluetoothResult, {"--power", power})
+--    local t = hs.task.new("/usr/local/bin/blueutil", checkBluetoothResult, {"--power", power})
+    local t = hs.task.new("/opt/homebrew/bin/blueutil", checkBluetoothResult, {"--power", power})
+    
     t:start()
 end
 
