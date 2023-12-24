@@ -3,11 +3,11 @@ Personal config for hammerspoon
 
 ## install HammerSpoon
 
-### Manual: Click here to download the latest version:
+### Click here to download the latest version:
 
 https://github.com/Hammerspoon/hammerspoon/releases/latest
 
-### Install through brew:
+### Or, install through brew:
 
 `brew install --cask hammerspoon`
 
@@ -24,7 +24,18 @@ git clone git@github.com:zfdang/hammerspoon-config.git ~/.hammerspoon --depth 1
 
 then reload hammerspoon config
 
-## current key bindings and functions
+## Main features
+
+1. Quick launch / switch among apps
+2. Move apps among monitors
+3. Resize and Adjust position of windows
+4. Lock Screen
+5. Show battey status
+6. Adjust Volume
+7. Adjust screen brightness
+8. Turn off Bluetooth when sleep, avoid connections to Bluetooth devices during sleep. Depends on blueutil.
+
+## Current key bindings and functions
 
 HyperKey: {"cmd", "alt", "ctrl", "shift"}
 
