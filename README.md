@@ -3,9 +3,13 @@ Personal config for hammerspoon
 
 ## install HammerSpoon
 
-click here to download the latest version:
+### Manual: Click here to download the latest version:
 
 https://github.com/Hammerspoon/hammerspoon/releases/latest
+
+### Install through brew:
+
+`brew install --cask hammerspoon`
 
 NOTE: You might have to grant "accessibility" permission to HammerSpoon manually. Please follow instruction in "preference" page.
 
