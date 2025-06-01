@@ -58,7 +58,7 @@ local key2App = {
     -- l = 'Reserved for Lock screen',
     m = 'Thunderbird.app',
     n = 'Microsoft OneNote',
-    -- o = 'Microsoft Outlook',
+    o = 'OmniFocus',
     p = 'Microsoft PowerPoint',
     -- q = 'App-Does-Not-Exist',
     r = 'Foxit PDF Reader',
@@ -67,7 +67,7 @@ local key2App = {
     -- u = 'App-Does-Not-Exist',
     v = 'Visual Studio Code',
     w = 'Microsoft Word',
-    x = 'Visual Studio Code.app',
+    x = 'Android Studio.app',
     -- y = 'App-Does-Not-Exist',
     z = 'Final Cut Pro',
 }
