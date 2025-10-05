@@ -69,7 +69,7 @@ local key2App = {
     w = 'Microsoft Word',
     x = 'Android Studio.app',
     -- y = 'App-Does-Not-Exist',
-    z = 'Final Cut Pro',
+    z = 'Safari',
 }
 
 for key, app in pairs(key2App) do
