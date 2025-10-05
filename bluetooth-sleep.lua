@@ -1,5 +1,8 @@
 require "string"
 
+-- See all events here
+-- https://www.hammerspoon.org/docs/hs.caffeinate.watcher.html
+
 function checkBluetoothResult(rc, stderr, stderr)
     if rc ~= 0 then
         print(string.format("Unexpected result executing `blueutil`: rc=%d stderr=%s stdout=%s", rc, stderr, stdout))
@@ -17,7 +20,7 @@ end
 function f(event)
     if event == hs.caffeinate.watcher.systemWillSleep then
         bluetooth("off")
-    elseif event == hs.caffeinate.watcher.screensDidWake then
+    elseif event == hs.caffeinate.watcher.systemDidWake then
         bluetooth("on")
     end
 end
